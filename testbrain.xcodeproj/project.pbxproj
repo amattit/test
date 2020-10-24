@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B259C4022544659A004BA315 /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259C4012544659A004BA315 /* DTO.swift */; };
 		B2C4F9EC2541B179002CDB31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4F9EB2541B179002CDB31 /* AppDelegate.swift */; };
 		B2C4F9EE2541B179002CDB31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4F9ED2541B179002CDB31 /* SceneDelegate.swift */; };
 		B2C4F9F02541B179002CDB31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4F9EF2541B179002CDB31 /* ContentView.swift */; };
@@ -14,6 +15,13 @@
 		B2C4F9F52541B17B002CDB31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C4F9F42541B17B002CDB31 /* Preview Assets.xcassets */; };
 		B2C4F9F82541B17B002CDB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C4F9F62541B17B002CDB31 /* LaunchScreen.storyboard */; };
 		B2C4FA032541B17B002CDB31 /* testbrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA022541B17B002CDB31 /* testbrainTests.swift */; };
+		B2C4FA0F2541B1D7002CDB31 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = B2C4FA0E2541B1D7002CDB31 /* Networking */; };
+		B2C4FA122541B1FA002CDB31 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA112541B1FA002CDB31 /* API.swift */; };
+		B2C4FA142541B338002CDB31 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA132541B338002CDB31 /* Config.swift */; };
+		B2C4FA172541B4AF002CDB31 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA162541B4AF002CDB31 /* Repository.swift */; };
+		B2C4FA192541B6A4002CDB31 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA182541B6A4002CDB31 /* ContentViewModel.swift */; };
+		B2C4FA1C2541C0F2002CDB31 /* NoteViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA1B2541C0F2002CDB31 /* NoteViewRow.swift */; };
+		B2C4FA1E254215A8002CDB31 /* CreateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4FA1D254215A8002CDB31 /* CreateNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B259C4012544659A004BA315 /* DTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
 		B2C4F9E82541B179002CDB31 /* testbrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testbrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C4F9EB2541B179002CDB31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C4F9ED2541B179002CDB31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,12 @@
 		B2C4F9FE2541B17B002CDB31 /* testbrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testbrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C4FA022541B17B002CDB31 /* testbrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testbrainTests.swift; sourceTree = "<group>"; };
 		B2C4FA042541B17B002CDB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C4FA112541B1FA002CDB31 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B2C4FA132541B338002CDB31 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B2C4FA162541B4AF002CDB31 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B2C4FA182541B6A4002CDB31 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		B2C4FA1B2541C0F2002CDB31 /* NoteViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewRow.swift; sourceTree = "<group>"; };
+		B2C4FA1D254215A8002CDB31 /* CreateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C4FA0F2541B1D7002CDB31 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +95,11 @@
 		B2C4F9EA2541B179002CDB31 /* testbrain */ = {
 			isa = PBXGroup;
 			children = (
+				B2C4FA1A2541C0E1002CDB31 /* View */,
+				B2C4FA152541B4A0002CDB31 /* Repository */,
+				B2C4FA102541B1F1002CDB31 /* API */,
 				B2C4F9EB2541B179002CDB31 /* AppDelegate.swift */,
 				B2C4F9ED2541B179002CDB31 /* SceneDelegate.swift */,
-				B2C4F9EF2541B179002CDB31 /* ContentView.swift */,
 				B2C4F9F12541B17B002CDB31 /* Assets.xcassets */,
 				B2C4F9F62541B17B002CDB31 /* LaunchScreen.storyboard */,
 				B2C4F9F92541B17B002CDB31 /* Info.plist */,
@@ -107,6 +125,35 @@
 			path = testbrainTests;
 			sourceTree = "<group>";
 		};
+		B2C4FA102541B1F1002CDB31 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4FA112541B1FA002CDB31 /* API.swift */,
+				B2C4FA132541B338002CDB31 /* Config.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B2C4FA152541B4A0002CDB31 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4FA162541B4AF002CDB31 /* Repository.swift */,
+				B259C4012544659A004BA315 /* DTO.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B2C4FA1A2541C0E1002CDB31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4FA182541B6A4002CDB31 /* ContentViewModel.swift */,
+				B2C4F9EF2541B179002CDB31 /* ContentView.swift */,
+				B2C4FA1B2541C0F2002CDB31 /* NoteViewRow.swift */,
+				B2C4FA1D254215A8002CDB31 /* CreateNoteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +170,9 @@
 			dependencies = (
 			);
 			name = testbrain;
+			packageProductDependencies = (
+				B2C4FA0E2541B1D7002CDB31 /* Networking */,
+			);
 			productName = testbrain;
 			productReference = B2C4F9E82541B179002CDB31 /* testbrain.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +223,9 @@
 				Base,
 			);
 			mainGroup = B2C4F9DF2541B179002CDB31;
+			packageReferences = (
+				B2C4FA0D2541B1D7002CDB31 /* XCRemoteSwiftPackageReference "Networking" */,
+			);
 			productRefGroup = B2C4F9E92541B179002CDB31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -210,7 +263,14 @@
 			files = (
 				B2C4F9EC2541B179002CDB31 /* AppDelegate.swift in Sources */,
 				B2C4F9EE2541B179002CDB31 /* SceneDelegate.swift in Sources */,
+				B2C4FA1E254215A8002CDB31 /* CreateNoteView.swift in Sources */,
+				B2C4FA142541B338002CDB31 /* Config.swift in Sources */,
+				B2C4FA192541B6A4002CDB31 /* ContentViewModel.swift in Sources */,
+				B2C4FA172541B4AF002CDB31 /* Repository.swift in Sources */,
+				B2C4FA1C2541C0F2002CDB31 /* NoteViewRow.swift in Sources */,
+				B2C4FA122541B1FA002CDB31 /* API.swift in Sources */,
 				B2C4F9F02541B179002CDB31 /* ContentView.swift in Sources */,
+				B259C4022544659A004BA315 /* DTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +533,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2C4FA0D2541B1D7002CDB31 /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amattit/Networking.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2C4FA0E2541B1D7002CDB31 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2C4FA0D2541B1D7002CDB31 /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2C4F9E02541B179002CDB31 /* Project object */;
 }
